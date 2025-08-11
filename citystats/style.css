@@ -1,0 +1,84 @@
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color:#f5e8ba;
+}
+
+#wrapper div, #wrapper h2{
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    color:#ffeba7;
+    letter-spacing: 1px;
+}
+
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+#result{
+    color:white;
+    margin-top:20px;
+    font-size:32px;
+}
+
+/* Radio button styles */
+.inputdiv {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start !important;
+    margin: 8px 0;
+    width: 250px;
+}
+
+.radio-item label {
+    display: flex;
+    align-items: center;
+    color: #ffeba7;
+    font-size: 16px;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.radio-item input[type="radio"] {
+    margin: 0;
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.radio-item:hover label {
+    color: #fff;
+}

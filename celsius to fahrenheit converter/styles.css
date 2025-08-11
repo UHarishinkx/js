@@ -1,0 +1,51 @@
+body{
+    background-color: lemonchiffon;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+#wrapper div, #wrapper h2{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color:cadetblue;
+    letter-spacing: 2px;
+}
+input{
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    height: 2.9em;
+    width: 250px;
+    padding-left: 10px;
+}
+input:active{
+    border: none;
+}
+#wrapper{
+    height: 500px;
+    width: 400px;
+    margin: 200px auto;
+    border-radius: 10px;
+    background-color: #1f2029;
+    padding: 30px;
+}
+button{
+    margin-top: 20px;
+    background-color: cadetblue;
+    height: 44px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+    color: #102770;
+}
+button:hover{
+    cursor: pointer;
+}
+#result{
+    color: white;
+    margin-top: 20px;
+    font-size: 32px;
+}
